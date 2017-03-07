@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'ZYUIViewExtensionPod_Example' do
+  pod 'ZYUIViewExtensionPod', :path => '../'
+
+  target 'ZYUIViewExtensionPod_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
