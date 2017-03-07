@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYUIViewExtensionPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '首次公开，请多多指导'
 
   s.description      = <<-DESC
