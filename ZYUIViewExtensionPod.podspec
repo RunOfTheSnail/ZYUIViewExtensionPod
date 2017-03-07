@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://zyMeXue@bitbucket.org/zyMeXue/zyuiviewextensionpod.git'
+  s.homepage         = 'https://github.com/RunOfTheSnail/ZYUIViewExtensionPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zy_ios@163.com' => 'zy@MeXue.com' }
-  s.source           = { :git => 'https://zyMeXue@bitbucket.org/zyMeXue/zyuiviewextensionpod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RunOfTheSnail/ZYUIViewExtensionPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
