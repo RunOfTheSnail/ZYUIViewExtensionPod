@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E35CF5AAEECDB192186160A /* ZYUIViewExtensionPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYUIViewExtensionPod.podspec; path = ../ZYUIViewExtensionPod.podspec; sourceTree = "<group>"; };
-		304F5D7E7EBA45FB3971C709 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E35CF5AAEECDB192186160A /* ZYUIViewExtensionPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYUIViewExtensionPod.podspec; path = ../ZYUIViewExtensionPod.podspec; sourceTree = "<group>"; };
+		304F5D7E7EBA45FB3971C709 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		30BF306D32BB52254ECECD97 /* Pods-ZYUIViewExtensionPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYUIViewExtensionPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYUIViewExtensionPod_Tests/Pods-ZYUIViewExtensionPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4EE0494B3574701B39D9F69A /* Pods_ZYUIViewExtensionPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYUIViewExtensionPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZYUIViewExtensionPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYUIViewExtensionPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2822BC50E91BACDF9D31BFE /* Pods-ZYUIViewExtensionPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYUIViewExtensionPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYUIViewExtensionPod_Tests/Pods-ZYUIViewExtensionPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB24EE31D857D74456BFFE82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB24EE31D857D74456BFFE82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B84BBB62EF12379DFEDFEC96 /* Pods_ZYUIViewExtensionPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYUIViewExtensionPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFD33609A12E70B982C6054 /* Pods-ZYUIViewExtensionPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYUIViewExtensionPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYUIViewExtensionPod_Example/Pods-ZYUIViewExtensionPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FF050425F2FC7F5B391AFDAE /* Pods-ZYUIViewExtensionPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYUIViewExtensionPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYUIViewExtensionPod_Example/Pods-ZYUIViewExtensionPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = "zy_ios@163.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYUIViewExtensionPod_Example.app/ZYUIViewExtensionPod_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYUIViewExtensionPod_Example.app/ZYUIViewExtensionPod_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

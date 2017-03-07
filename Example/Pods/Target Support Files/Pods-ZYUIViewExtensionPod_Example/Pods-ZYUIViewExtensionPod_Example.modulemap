@@ -1,0 +1,6 @@
+framework module Pods_ZYUIViewExtensionPod_Example {
+  umbrella header "Pods-ZYUIViewExtensionPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
